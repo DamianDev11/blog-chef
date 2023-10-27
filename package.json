@@ -3,13 +3,12 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "type": "module",
   "scripts": {
-    "start": "node ./bin",
+    "start": "node -r dotenv/config ./bin",
     "dev": "nodemon -r dotenv/config ./bin"
   },
   "engines": {
-    "node":">=12.8.0"
+    "node": ">=12.8.0"
   },
   "author": "",
   "license": "ISC",
